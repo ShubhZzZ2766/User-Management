@@ -1,0 +1,36 @@
+form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  button[type="submit"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  button[type="submit"]:disabled {
+    background-color: #cfcfcf;
+    cursor: not-allowed;
+  }
+  
+  button[type="submit"]:enabled {
+    background-color: #38b3dc;
+  }
+  
+  button[type="submit"]:hover:enabled {
+    background-color: #2281a7;
+  }
+
+  
